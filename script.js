@@ -1,5 +1,8 @@
+import "./styles.css";
+
 const codes = document.querySelectorAll(".code");
 codes.forEach((code, idx) => {
+  code.setAttribute("id", `code-${++idx}`);
   code.addEventListener("keydown", (event) => {
     event.preventDefault();
     if (event.key >= "0" && event.key <= "9") {
