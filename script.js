@@ -9,7 +9,7 @@ codes.forEach((code, idx) => {
       setTimeout(() => {
         codes[idx + 1] && codes[idx + 1].focus();
       }, 10);
-    } else if (event.key === "backspace") {
+    } else if (event.key === "Backspace") {
       setTimeout(() => {
         codes[idx - 1] && codes[idx - 1].focus();
       }, 10);
