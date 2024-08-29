@@ -1,4 +1,3 @@
-import "./styles.css";
 
 const codes = document.querySelectorAll(".code");
 codes.forEach((code, idx) => {
